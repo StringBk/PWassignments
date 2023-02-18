@@ -1,0 +1,68 @@
+//////Q1///////
+import java.util.*;
+public class Main
+{
+    public static int add(int x,int y){
+        return x+y;
+    }
+    	public static void main(String[] args) {
+		int x=5,y=6;
+		System.out.println(add(x,y));
+	}
+}
+
+//////Q2///////
+import java.util.*;
+public class Main{
+    	public static void main(String[] args) {
+    	 int x='U';   
+		System.out.println("ASCII value of U is "+x);
+		
+	}
+}
+
+
+//////Q3///////
+import java.util.*;
+public class Main
+{
+    public static int area(int l,int b){
+        return l*b;
+    }
+    	public static void main(String[] args) {
+		int l=5,b=6;
+		System.out.println("area is " +area(l,b));
+	}
+}
+
+///////Q4/////
+import java.util.*;
+public class Main
+{
+    public static int cube(int l){
+        return l*l*l;
+    }
+    	public static void main(String[] args) {
+		int l=5;
+		System.out.println("cube of "+l+ " is " +cube(l));
+	}
+}
+
+//////Q5//////
+import java.util.*;
+public class Main
+{
+    public static void swap(int a,int b){
+        int temp=a;
+        a=b;
+        b=temp;
+        System.out.println("after swapping a is "+a+ " & b is "+ b);
+        
+    }
+    	public static void main(String[] args) {
+		int a=5,b=6;
+		System.out.println("before swapping a is "+a+ " & b is "+ b);
+		swap(a,b);
+		
+	}
+}
